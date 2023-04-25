@@ -1,0 +1,28 @@
+---
+title: "Stat 184 Activity 2"
+author: "Surya Komandooru"
+date: "September 15, 2022"
+output:
+  html_document:
+    df_print: paged
+---
+## Introduction ##
+
+  My name is Surya Komandooru, I was born in Monroeville, Pennsylvania. As a student, I wasn't really interested academic stuff, but was interested in playing with and making things with data. As such, I am now working down a path where I will eventually do masters and eventually phd to solidy my future career and passion. 
+
+## Hobby ##
+
+  Some of my hobbies are watching tv, movies, kdrama, listening to music, playing games, playing sports, exercising, enjoying new food, and enjoying life. I am currently watching kdrama which is really good, it's called [Today's Webtoon](https://dramacool.cr/drama-detail/today-s-webtoon). It has a combination of comedy, daily work life in a corporate setting, and comics. 
+  
+## Galton Data ##
+
+```{r}
+  DaltonClass <- read.csv("C:/Users/surya/Downloads/DaltonClass.csv")
+
+  boxplot(DaltonClass$Height ~ DaltonClass$Gender,
+          xlab = "Sex",
+          ylab = "Height")
+```
+
+  
+
